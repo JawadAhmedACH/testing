@@ -1,0 +1,21 @@
+.container{
+    background-color: purple;
+    display: flex;
+    justify-content: start;
+}
+
+.box1{
+    width: 200px; height: 200px;
+    background-color: red;
+
+}
+
+.box2{
+    width: 200px; height:200px;
+    background-color: green;
+}
+
+.box3{
+    width: 200px; height: 200px;
+    background-color: blue;
+}

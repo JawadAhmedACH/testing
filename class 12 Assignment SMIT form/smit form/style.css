@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color: rgb(0, 0, 0);
+}
+
+.box1{
+    max-width: 70%;min-width: 50%; margin: auto ; padding: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+
+}
+label{color: white;}
+
+legend{color: white; margin: 50px 0px;}
+
+
+
+ul>li{
+    display: inline-block;
+}
+
+#submit{
+    width: 500px; background: BLUE; margin-bottom: 50px; padding: 10px;
+}
+
+ol{
+     
+}
+#footer{ max-width: auto; min-width: auto;
+
+}
+#photograph{
+    
+margin-left: 290px;
+    border:1px solid white; width: 90px; height: 90px; background-color: white; 
+}
+
+#details{ color: white;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+.social{
+
+    width: 30px;
+margin: 15px;
+}
+
+#logo{
+     width: 400px; padding-left: 40px;
+}
+
+.images{
+    width: 800px; align-content: center;
+    margin-left: auto; margin-right: auto;
+}
+
+#right{ 
+margin-left: 150px;
+
+}
+
+#left{ 
+    padding-left: 70px;
+
+}
+
+
+.select{ 
+    border: 1px solid green; width: 300px; border-radius: 10px; padding: 10px;
+}
+
+.select:hover{
+    background-color: rgb(123, 142, 76);
+}
+
+.select:focus{
+    background-color: rgb(19, 109, 105); color: white;
+}
+
+
+#studentportal{
+    border: 1px solid rgb(122, 255, 78); padding:  05px; border-radius: 5px; width: 150px;
+}
+
+#studentportal:hover{
+
+    background-color: rgb(40, 90, 130); color: red; 
+}
+ol{margin:30px auto;
+    max-width: 65%;
+    color: white;
+}

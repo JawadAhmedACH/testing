@@ -1,0 +1,149 @@
+*{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+background-color: black; 
+
+
+}
+
+.header>ul{
+    max-width: 60%; margin:auto
+
+}
+
+.ul{ display: flex;
+justify-content: space-around; 
+}
+.ul> li, .ul li a{
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+}
+/* section one */
+.latest{
+    width: 100%;
+    height: 600px;
+    background-image: url(./images/hero_iphone16pro_avail__fnf0f9x70jiy_largetall.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+#sola{
+    max-width:100% ; position: absolute;
+}
+
+.content{
+    text-align: center;
+}
+
+
+.content h1{ font-size: 50px;
+    color:white;
+    text-align: center;
+    padding-top: 30px;
+    
+}
+.content h3{
+    font-size: 20px;
+    color: white;
+}
+.btn1{ background-color: #757FF6;
+    border-radius: 30px;
+    padding: 5px;
+    
+}
+.btn2{
+    background-color: transparent;
+    border-radius: 30px;
+    padding: 5px;
+    color:  #757FF6;
+}
+.btn1{
+    background-color: #757FF6;
+    color: white;
+}
+
+.btn2:hover{
+    background-color: #757FF6;
+    color: white;
+}
+/* section two */
+
+.content2{
+    text-align: center;   
+}
+.content2 h1{
+    color:white;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 50px;    
+}
+.latest2{
+    width: 100%;
+    height: 600px;
+    background-image: url(./images/hero_iphone16_avail__euwzls69btea_largetall.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+}
+.content2 h3{
+    font-size: 20px;
+    color: white;
+}
+
+.btn3{ background-color: #757FF6;
+    border-radius: 30px;
+    padding: 5px;
+    
+}
+.btn4{
+    background-color: transparent;
+    border-radius: 30px;
+    padding: 5px;
+    color:  #757FF6;
+}
+.btn3:hover{
+    background-color: #757FF6;
+    color: white;
+}
+.btn4:hover{
+    background-color: #757FF6 ;
+    color: white;
+}
+/* section 3 */
+.latest3{
+    background-image: url(./images/promo_ipadair_ai__3fv1eitzqv6y_large.jpg);
+    background-position: center; 
+    background-repeat: no-repeat;
+    width:100%; height:600px;
+    display: flex;
+}
+
+.content3{
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    padding: 50px;
+    flex: 1;
+    background-image: url(./images/promo_ipadair_ai__3fv1eitzqv6y_large.jpg);
+    background-position: center; 
+    background-repeat: no-repeat; 
+    width:100%; height:600px;
+}
+
+.content4{
+
+    flex: 1;
+    background-image: url(./images/promo_apple_watch_series_10_avail_lte__c70y29goir42_large.jpg);
+    background-position: center; 
+    background-repeat: no-repeat; 
+    width:100%; height:600px;
+    text-align: center;
+    padding: 30px;
+    gap: 70px;
+}
+
+
